@@ -1,5 +1,5 @@
 <template>
-  <div class="font-mont lg:flex lg:items-center lg:justify-between bg-black text-gray-300 sticky top-0 z-10 shadow-sm lg:px-32 pt-6 pb-4">
+  <div class="font-mont lg:flex lg:items-center lg:justify-between bg-black text-gray-300 sticky top-0 z-10 shadow-sm lg:px-32 pt-6 pb-4 overflow-hidden">
     <div class="lg:pl-24 px-2 w-full flex justify-between items-center">
         <span></span>
         <div class="block lg:hidden">

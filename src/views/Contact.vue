@@ -1,5 +1,5 @@
 <template>
-  <div class="font-mont bg-gray-900 w-full h-screen border-b border-black tracking-wider">
+  <div class="font-mont bg-gray-900 w-full h-screen border-b border-black tracking-wider overflow-hidden">
     <div class="flex flex-col items-center py-10 lg:py-16 text-gray-400 tracking-widest">
       <h2 class="text-3xl lg:text-4xl text-gray-300 tracking-wider">Contact</h2>
       <h2 class="text-2xl pt-16 lg:pt-20">Gaurav Paudel</h2>
