@@ -1,6 +1,6 @@
 <template>
   <div class="font-mont bg-gray-900 text-gray-300 py-10 lg:py-16 w-full border-b border-black">
-    <h1 class="text-3xl lg:text-4xl font-semibold text-center">Project</h1>
+    <h1 class="text-3xl lg:text-4xl text-center">Project</h1>
     <div class="flex flex-col lg:flex-row items-center pt-8 lg:pt-20">
       <div v-for="p in projects1" :key="p.title" class="w-full lg:w-1/3 px-12 py-8 lg:py-0 overflow-hidden flex flex-col items-center filter-none hover:filter-grayscale transition ease-out duration-500">
         <a :href="p.live_url" target="_blank"><img :src="p.pic_url" /></a>
