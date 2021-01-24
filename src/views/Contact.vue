@@ -7,6 +7,11 @@
       <a href="mailto:paudelgaurav776@gmail.com" class="text-xl pt-4">paudelgaurav776@gmail.com</a>
       <h2 class="text-xl pt-8">Dhangadhi, Bishalnagar</h2>
       <h2 class="text-xl pt-4">Far-Western, Nepal</h2>
+      <p class="flex space-x-4 pt-6 lg:pt-14">
+        <a href="#" class="transform hover:-translate-y-1 transition ease-out duration-500 px-4 py-2 filter-grayhighscale hover:filter-none"> <img src="../assets/img/gt.svg" class="h-6 w-6"></a>
+        <a href="#" class="transform hover:-translate-y-1 transition ease-out duration-500 px-4 py-2 filter-grayhighscale hover:filter-none"><img src="../assets/img/fb.svg" class="h-6 w-6"></a>
+        <a href="" class="transform hover:-translate-y-1 transition ease-out duration-500 px-4 py-2 filter-grayhighscale hover:filter-none"><img src="../assets/img/ln.svg" class="h-6 w-6"></a>     
+    </p>
     </div>
   </div>
 </template>

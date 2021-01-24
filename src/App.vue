@@ -14,10 +14,10 @@
         </div>
     </div>
       <div :class="isOpen? 'block':'hidden'" class="lg:flex uppercase lg:space-x-10 text-lg w-full items-center shadow-md lg:shadow-none">
-        <router-link to="/" class="block py-2 px-3 lg:py-0 lg:px-0 hover:text-gray-500 transition ease-out duration-500">HOME</router-link>
-        <router-link :to="{ name:'About' }" class="block py-2 px-3 lg:py-0 lg:px-0 hover:text-gray-500 transition ease-out duration-500">ABOUT ME</router-link>
-        <router-link :to="{ name:'Project' }" class="block py-2 px-3 lg:py-0 lg:px-0 hover:text-gray-500 transition ease-out duration-500">PROJECT</router-link>
-        <router-link :to="{ name:'Contact' }" class="block py-2 px-3 lg:py-0 lg:px-0 hover:text-gray-500 transition ease-out duration-500">Contact</router-link>
+        <router-link to="/" class="block py-2 px-3 lg:py-0 lg:px-0 hover:text-gray-500 focus:outline-none transition ease-out duration-500">HOME</router-link>
+        <router-link :to="{ name:'About' }" class="block py-2 px-3 lg:py-0 lg:px-0 hover:text-gray-500 focus:outline-none transition ease-out duration-500">ABOUT ME</router-link>
+        <router-link :to="{ name:'Project' }" class="block py-2 px-3 lg:py-0 lg:px-0 hover:text-gray-500 focus:outline-none transition ease-out duration-500">PROJECT</router-link>
+        <router-link :to="{ name:'Contact' }" class="block py-2 px-3 lg:py-0 lg:px-0 hover:text-gray-500 focus:outline-none transition ease-out duration-500">Contact</router-link>
     </div>
     <span></span>
   </div>
@@ -26,7 +26,11 @@
 
 <script>
 export default {
-
+  watch: {
+      '$route' (to, from) {
+        document.title = to.meta.title || 'Gaurav Paudel'
+      }
+    },
   data() {
     return {
       isOpen: false
