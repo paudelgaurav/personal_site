@@ -2,10 +2,10 @@
   <div class="font-mont bg-gray-900 flex flex-col  pt-10 pb-12 lg:py-16 w-full border-b border-black tracking-wider overflow-hidden">
     <h1 class="text-3xl lg:text-4xl text-gray-300 text-center">About Me</h1>
     <p class="text-gray-400 px-10 lg:px-60 pt-8 lg:pt-14" >
-       Hi, I'm Gaurav Paudel, full-stack Django developer with a passion for web-design. I'm currently living in Nepal. I'm an amid admirer of technology and loves geeking out in web trends, linux distros.
+       Hi, I'm Gaurav Paudel. I'm working as a full-stack developer for reputed IT firm in Nepal. I'm an amid admirer of technology and love geeking out in web trends, linux distros.
     </p>
     <p class="text-gray-400 px-10 lg:px-60 pt-4 lg:pt-8" >
-       I love making web-apps with fast, dyanamic ,responsive and smooth experience. My favoutite stack is Django, Vuejs, PostgreSQL, Tailwind and Linux.
+       I love making web-apps with fast, dynamic, responsive and smooth experience. My favoutite stack is Django, Vue, PostgreSQL and Tailwind. 
     </p>
     
     <div class="px-10 lg:px-60 text-left py-10 lg:py-14 text-gray-400">
@@ -32,13 +32,13 @@ export default {
   data () {
     return {
       frameworks: [
-        'Django','DRF', 'Vue', 'Tailwind','Alpine','Bootstrap'
+        'Django','Vue', 'Tailwind', 'Alpine'
       ],
       Languages: [
-        'Python', 'HTML5', 'CSS3', 'Javascript'
+        'Python', 'Javascript'
       ],
       Tools:[
-        'Browser Dev Tools', 'NPM', 'PIP', 'VSCode','Linux(Arch)','KDE'
+        'Browser Dev Tools', 'VSCode','Linux(Arch)', 'KDE'
       ]
     }
   }
