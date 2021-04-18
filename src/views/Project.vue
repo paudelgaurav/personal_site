@@ -37,14 +37,14 @@ export default {
           pic_url: 'https://i.ibb.co/hDcq2DY/mpasal.jpg',
           live_url: 'https://www.mpasal.com/',
           code_url: 'https://github.com/gauravpaudel/mPasal',
-          description: 'Worked as a Full-Stack developer.'
+          description: 'Multi Vendor E-commerce site'
         },
         {
           title: 'DJ Vue',
           pic_url: 'https://i.ibb.co/Yfkkfpp/djvue.jpg',
           live_url: 'https://blog.paudelgaurav.com.np/',
           code_url: 'https://github.com/gauravpaudel/blog',
-          description: 'Build a blog with Django and Bootstrap4.'
+          description: 'Documenting my life as a developer.'
 
         },
         {
@@ -52,16 +52,16 @@ export default {
           pic_url: 'https://i.ibb.co/bzL8K9m/rojgari.jpg',
           live_url: 'https://laughing-sammet-202832.netlify.app/',
           code_url: 'https://github.com/gauravpaudel/rojgari-clone',
-          description: 'Redesigned rojgar.com with Vuejs and Tailwind.'
+          description: 'Redesigned rojgari.com with Vue and Tailwind.'
         }
       ],
       projects2: [
         {
-          title: 'Instagram',
+          title: 'Instagram Clone',
           pic_url: 'https://i.ibb.co/mz28vWp/instagram.jpg',
           live_url: 'https://gauravpaudel.github.io/instagram-design/',
           code_url: 'https://github.com/gauravpaudel/instagram-design',
-          description: 'Redesigned instagram frontend with tailwind and alpine.'
+          description: 'Redesigned Instagram with alpine and tailwind.'
         },
         {
           title: 'Insta',
