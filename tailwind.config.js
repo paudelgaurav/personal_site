@@ -7,7 +7,7 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    fontFamily:{
+    fontFamily: {
       'mont': ['Montserrat', 'sans-serif']
     },
     extend: {},
@@ -17,7 +17,7 @@ module.exports = {
       black: colors.black,
       white: colors.white,
       gray: colors.trueGray,
-  }
+    }
   },
   variants: {
     extend: {},
